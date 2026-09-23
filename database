@@ -1,0 +1,14 @@
+CREATE DATABASE quan_ly_hoc_sinh; 
+USE quan_ly_hoc_sinh; 
+
+CREATE TABLE hoc_sinh ( 
+  id INT AUTO_INCREMENT PRIMARY KEY, 
+  name VARCHAR(100) NOT NULL, 
+  age INT NOT NULL, 
+  grade FLOAT NOT NULL 
+); 
+
+INSERT INTO hoc_sinh (name, age, grade) VALUES 
+('Nguyễn Văn A', 18, 8.5), 
+('Trần Thị B', 18, 9.2), 
+('Lê Văn C', 19, 7.8);
