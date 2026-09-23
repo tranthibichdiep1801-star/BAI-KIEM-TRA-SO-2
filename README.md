@@ -1,1 +1,0 @@
-# BAI-KIEM-TRA-SO-2
